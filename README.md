@@ -101,19 +101,17 @@ The flow measurements alone do not establish that the complete system is hydraul
 ## How It Works
 
 ```mermaid
-flowchart TD
-    A[Initialize building and heating system] --> B[Set room temperatures to approximately 5 C]
-    B --> C{Select control scenario}
-    C --> D[Baseline without active room control]
-    C --> E[Independent local thermostats]
-    C --> F[Local thermostats plus centralized controller]
-    D --> G[Run Simulink simulation]
-    E --> G
-    F --> G
-    G --> H[Record room temperatures and valve commands]
-    H --> I[Calculate warm-up times and temperature spread]
-    I --> J[Compare the three scenarios]
-    J --> K[Evaluate control performance and limitations]
+
+flowchart LR
+    A[Initialize Model] --> B{Control Scenario}
+    B --> C[Baseline]
+    B --> D[Local Thermostats]
+    B --> E[Centralized Control]
+    C --> F[Simulate and Compare]
+    D --> F
+    E --> F
+    F --> G[Evaluate Warm-Up Times]
+
 ```
 
 ## Repository Workflow
