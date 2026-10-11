@@ -10,6 +10,8 @@ Bachelor Thesis · [Mechanical Engineering] · [Technische Hochschule Ingolstadt
 ---
 
 ## The Problem
+<img width="1361" height="553" alt="hyd abg" src="https://github.com/user-attachments/assets/8b3afc29-e074-4eff-8c3f-769bc6b317b9" />
+
 
 In a multi-room hydronic heating system, rooms do not necessarily warm up at the same rate. Differences in room heat losses, thermal properties, radiator behaviour, and heating-system operation can result in some rooms reaching their target temperature considerably earlier than others.
 
