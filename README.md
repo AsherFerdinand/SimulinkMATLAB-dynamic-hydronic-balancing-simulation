@@ -116,6 +116,3 @@ centralized temperature-control logic.
 The primary objective is to determine whether centralized control reduces
 the warm-up-time spread compared with independent local thermostats.
 
-> **Note:** All figures and quantitative results should come from the actual
-> MATLAB/Simulink simulations. Replace placeholder images with exported
-> model screenshots and measured results before publication.
