@@ -87,10 +87,13 @@ centralized temperature-control logic.
 
 ## 5. Simulation Results
 
-| Room Temperature Response | Warm-Up Comparison |
+| Room Temperature Response | Description |
 |:---:|:---:|
-| ![Room Temperature Response](05_Results/figures/room_temperature_response.png) | ![Warm-Up Comparison](05_Results/figures/warmup_comparison.png) |
-| Temperature trajectories over simulation time | Comparison of warm-up performance across control strategies |
+|<img width="969" height="567" alt="image" src="https://github.com/user-attachments/assets/e79fa727-3686-4d8d-bd08-0153338aa6ef" />| **Case 1:** Simulated room temperature profile without controlled heating system|
+|<img width="982" height="523" alt="image" src="https://github.com/user-attachments/assets/e6f8b5c7-9e22-4bb6-ad86-ae9e62aaac5b" />| **Case 2(a):** Simulated room temperature profiles with decentralised heating system logic on the ground floor|
+|<img width="963" height="514" alt="image" src="https://github.com/user-attachments/assets/6a7b8aed-c421-44ad-9162-6e3b95fa1982" />| **Case 2(b):** Simulated room temperature profiles with decentralised heating system logic on the first floor|
+|<img width="896" height="427" alt="image" src="https://github.com/user-attachments/assets/9bef97e1-9a6c-4e3d-badb-555857999f46" />| **Case 2(c):** Simulated room temperature profiles with decentralised heating system logic on the second floor|
+|<img width="927" height="504" alt="image" src="https://github.com/user-attachments/assets/a3344c72-971f-47d1-a766-e7bbb9f41246" />| **Case 3:** Room temperature profile with combined decentralised and centralised logic control|
 
 ---
 
